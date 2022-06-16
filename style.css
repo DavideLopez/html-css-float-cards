@@ -3,3 +3,52 @@
     margin: 0;
     padding: 0;
 }
+
+h1{
+    color: tomato;
+    font-size: 30px;
+    font-style: inherit;
+}
+
+img{
+    max-width: 100%;
+}
+
+.clearfix::after{ 
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.card_image{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.col{
+    float: left;
+    width: calc(100% / 3);
+    padding: 0px 20px;
+    margin-bottom: 30px;
+}
+
+.card{
+    background-color: black
+}
+
+.nome{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    padding-top: 8px;
+    color: white;
+}
+
+.role{
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 18px;
+}
