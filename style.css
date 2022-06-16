@@ -1,61 +1,63 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Tauri', sans-serif;
 }
 
-h1{
+h1 {
     color: #E4296B;
-    font-size: 30px;
-    font-style: inherit;
+    font-size: 40px;
     text-align: center;
     padding-bottom: 50px;
     padding-top: 50px;
 }
 
-p{
+p {
     text-align: center;
     padding-bottom: 50px;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
-.container{
+.container {
     width: 1200px;
     margin: auto;
 }
 
-.clearfix::after{ 
+.clearfix::after {
     content: '';
     clear: both;
     display: table;
 }
 
-.card_image{
+.card_image {
     float: left;
     width: 100px;
     height: 100px;
     margin-right: 20px;
 }
 
-.col{
+.col {
     float: left;
     width: calc(100% / 3);
     padding: 0px 20px;
     margin-bottom: 30px;
 }
 
-.card{
-    background-color: black
+.card {
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 3px 2px rgba(40, 40, 40, 0.2);
+    overflow: hidden;
 }
 
-.nome{
+.nome {
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 8px;
@@ -63,15 +65,14 @@ img{
     color: white;
 }
 
-.role{
+.role {
     color: white;
     padding-top: 8px;
     padding-bottom: 8px;
     font-size: 12px;
 }
 
-.email{
+.email {
     text-decoration: none;
-    font-size: 12px;
+    font-size: 14px;
 }
-
