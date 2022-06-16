@@ -54,7 +54,7 @@ img {
 .card {
     background-color: black;
     border-radius: 10px;
-    box-shadow: 3px 2px rgba(40, 40, 40, 0.2);
+    box-shadow: 3px 2px rgba(15, 14, 14, 0.2);
     overflow: hidden;
 }
 
