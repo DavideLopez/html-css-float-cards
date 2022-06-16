@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Tauri', sans-serif;
+}
+
 h1{
     color: #E4296B;
     font-size: 30px;
@@ -20,6 +24,11 @@ p{
 
 img{
     max-width: 100%;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
 }
 
 .clearfix::after{ 
@@ -47,7 +56,7 @@ img{
 }
 
 .nome{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     margin-bottom: 8px;
     padding-top: 8px;
@@ -58,5 +67,11 @@ img{
     color: white;
     padding-top: 8px;
     padding-bottom: 8px;
-    font-size: 18px;
+    font-size: 12px;
 }
+
+.email{
+    text-decoration: none;
+    font-size: 12px;
+}
+
